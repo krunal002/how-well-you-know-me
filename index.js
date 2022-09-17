@@ -31,10 +31,10 @@ let que1 = [
 ]
 
 let score = 0;
-  for (let i = 0; i < que1.length; i++) {
-    let CQ = que1[i];
-    game(CQ.Q, CQ.A);
-  }
+for (let i = 0; i < que1.length; i++) {
+  let CQ = que1[i];
+  game(CQ.Q, CQ.A);
+}
 
 
 
@@ -54,3 +54,6 @@ function game(question, answer) {
 
 console.log("Thank You for playing " + user);
 console.log("Your final score is " + score + "/5");
+consolw.log("Top score's-");
+consolw.log("Dipak : 4/5");
+consolw.log("Rupali : 5/5");
